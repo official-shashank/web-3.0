@@ -1,0 +1,29 @@
+.product-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.head{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 1rem;
+    box-shadow: 0px 5px 80px -3px #7209B7 ;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.product-card-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}

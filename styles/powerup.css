@@ -1,0 +1,137 @@
+.power-up-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.power-up-container img{
+    position: absolute;
+    right: 9rem ;
+    bottom:4rem;
+    width: 20%;
+    background: transparent;
+}
+.puc-content{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.puc-title{
+    font-size: 3rem;
+    width: 60%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.puc-disc{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.puc-box{
+    width: 90%;
+    padding: 2rem;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    box-shadow: 0px 1px 80px -1px #7209B7;
+    gap: 2rem;
+    border-radius: 2rem;
+}
+
+.puc-box-title{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.puc-list{
+    display: flex;
+    font-size: 1.2rem;
+    gap: 1rem;
+    flex-direction: column;
+
+}
+
+
+/* cards container styling */
+.cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 2rem; */
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+   
+}
+
+.left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/cards/left.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    justify-content: space-between;
+    height: 15rem;
+    padding: 1rem;
+    box-shadow: 0px 5px 40px -3px #7209B7 ;
+}
+
+.card-title{
+    background: transparent;
+}
+.card-disc{
+    background: transparent;
+}
+
+.right{
+    background-image: url(../images/cards/right.png);
+    height: 100%;
+    width: 30%;
+}
+
+.card-title{
+    font-size: 2rem;
+}
+
+.card{
+    border-radius: 2rem;
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    flex-direction: column;
+
+}
+.mid-top,.mid-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 2rem;
+    gap: 0.5rem;
+    box-shadow: 0px 5px 40px -3px #7209B7 ;
+
+}
+
+.mid-top span:nth-child(1){
+    font-size: 3rem;
+}
+.mid-bottom span:nth-child(1){
+    font-size: 3rem;
+}
+
